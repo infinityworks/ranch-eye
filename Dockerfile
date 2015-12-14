@@ -5,6 +5,4 @@ ADD haproxy.cfg /usr/local/etc/haproxy/haproxy.cfg
 
 RUN exec haproxy -db -f /usr/local/etc/haproxy/haproxy.cfg
 
-ENV LISTEN_PORT=9104
-
-EXPOSE $LISTEN_PORT
+EXPOSE 9104
