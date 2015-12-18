@@ -1,0 +1,10 @@
+ranch-eye:
+  ports:
+  - 9104:9104/tcp
+  labels:
+    io.rancher.scheduler.global: 'true'
+    io.rancher.container.hostname_override: container_name
+  tty: true
+  image: rucknar/ranch-eye:latest
+  stdin_open: true
+  net: host
