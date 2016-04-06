@@ -2,7 +2,7 @@
 
 ## Summary
 
-Simple haproxy for exposing rancher's implementation of cadvisor stats to an external endpoint.
+Simple haproxy (1.6) implementation for exposing rancher's implementation of cadvisor stats to an external endpoint.
 Useful for tools such as prometheus to monitor rancher managed hosts.
 
 ## Description
