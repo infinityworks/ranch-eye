@@ -28,3 +28,6 @@ ranch-eye:
 The ranch-eye container can be found on the docker hub [here](https://hub.docker.com/r/infinityworks/ranch-eye/)
 The catalog entry is in the community catalog, available [here](https://github.com/rancher/community-catalog)
 Additional information can be found on the [guide](https://github.com/infinityworksltd/Guide_Rancher_Monitoring)
+
+## Metadata
+[![](https://images.microbadger.com/badges/image/infinityworks/ranch-eye.svg)](http://microbadger.com/images/infinityworks/ranch-eye "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/infinityworks/ranch-eye.svg)](http://microbadger.com/images/infinityworks/ranch-eye "Get your own version badge on microbadger.com")
