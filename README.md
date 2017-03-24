@@ -2,6 +2,8 @@
 
 ## Summary
 
+**This container is no longer required for rancher versions 1.2 and upwards. Rancher no longer uses cadvisor within it's agent service. In order to get this detail, users can schedule their own cadvisor containers instead.**
+
 Simple haproxy (1.6) implementation for exposing rancher's implementation of cadvisor stats to an external endpoint.
 Useful for tools such as prometheus to monitor rancher managed hosts.
 
